@@ -17,8 +17,7 @@
 
 ## 🚀 Live Demo & Deployments
 - **Frontend (Vercel):** [https://bloodlink-mern-phi.vercel.app](https://bloodlink-mern-phi.vercel.app)
-- **Backend API (Railway):** `https://<YOUR-RAILWAY-APP-URL>` *(Update with your actual URL)*
-
+- **Backend API (Railway):
 ---
 
 ## ✨ Key Features & Core Business Logic
@@ -76,3 +75,5 @@ blood-management/
     │   ├── App.js               # React Router DOM setup
     │   ├── index.css            # Global Tailwind styling
     │   └── index.js             # React DOM rendering entry point
+
+
