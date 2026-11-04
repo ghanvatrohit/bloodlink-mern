@@ -36,10 +36,11 @@
 ### 🖥️ Client-Side (Frontend)
 | Technology | Description |
 | :--- | :--- | 
-| **React.js** | UI Library for building Single Page Applications | 
-| **Tailwind CSS** | Utility-first CSS framework for rapid UI styling | 
+| **React.js & Router v6** | UI Library for SPA and dynamic nested routing | 
+| **Tailwind CSS** | Utility-first CSS framework for rapid responsive layouts | 
+| **Material UI (MUI)** | Premium React component library for avatars, badges, and icons |
 | **Axios** | Promise-based HTTP client for API requests | 
-| **Socket.io-Client** | Client-side library for real-time WebSockets | 
+| **Socket.io-Client** | Client-side library for real-time WebSockets |
 
 ### ⚙️ Server-Side (Backend)
 | Technology | Description |
