@@ -20,7 +20,7 @@
 ## 🚀 Live Demo & Deployments
 
 - **Frontend (Vercel):** [BloodLink Live Demo](https://bloodlink-mern-phi.vercel.app)
-- **Backend API (Railway):** `https://<YOUR-RAILWAY-APP-URL>` (Replace with your actual backend URL)
+- **Backend API (Railway):**
 
 ---
 
