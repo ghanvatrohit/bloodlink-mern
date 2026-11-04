@@ -1,0 +1,5 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body { margin: 0; font-family: "Segoe UI", Roboto, sans-serif; background: #f7f5f5; }
+.chat-bg { background: #efeae2 radial-gradient(#d9d2c5 1px, transparent 1px); background-size: 18px 18px; }
