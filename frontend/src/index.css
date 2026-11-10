@@ -1,0 +1,94 @@
+/* Our own small set of styles. Bootstrap does most of the work. */
+
+body {
+  background-color: #faf7f5;
+}
+
+/* Main brand colour (blood red) */
+.text-blood {
+  color: #b91c1c;
+}
+.bg-blood {
+  background-color: #b91c1c;
+  color: white;
+}
+
+/* Bootstrap "danger" buttons use our red */
+.btn-danger {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+}
+
+/* Left menu */
+.sidebar {
+  width: 230px;
+  min-height: 100vh;
+  background-color: #1f2937;
+}
+.sidebar .nav-link {
+  color: #d1d5db;
+  border-radius: 8px;
+  margin-bottom: 4px;
+}
+.sidebar .nav-link:hover {
+  background-color: #374151;
+}
+.sidebar .nav-link.active {
+  background-color: #b91c1c;
+  color: white;
+}
+
+/* Login / register left panel */
+.auth-banner {
+  background: linear-gradient(135deg, #991b1b, #111827);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Small coloured bar used in charts and progress steps */
+.bar {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #e5e7eb;
+}
+.bar-fill {
+  height: 10px;
+  border-radius: 5px;
+  background-color: #b91c1c;
+}
+
+/* Chat */
+.chat-box {
+  height: calc(100vh - 160px);
+}
+.chat-messages {
+  background-color: #f9fafb;
+  overflow-y: auto;
+}
+.bubble {
+  max-width: 75%;
+  padding: 8px 12px;
+  border-radius: 14px;
+}
+.bubble-mine {
+  background-color: #b91c1c;
+  color: white;
+}
+.bubble-other {
+  background-color: white;
+  border: 1px solid #eee;
+}
+
+/* Certificate */
+.certificate {
+  border: 6px double #b91c1c;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
